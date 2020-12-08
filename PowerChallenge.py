@@ -23,4 +23,4 @@ if __name__ == "__main__":
     for num in nums:
         input = num.split(',')
         print(power_ranger(int(input[0]), int(input[1]), int(input[2])), file=outFile)
-    outFile.close()
+    outFile.close();
